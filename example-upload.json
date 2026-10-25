@@ -1,0 +1,31 @@
+{
+  "deviceId": "7ef6df40-5b17-4df8-8c5c-a78a25cfe3c3",
+  "revision": 1,  
+  "events": [
+    {
+      "id": 1,
+      "name": "Design workshop",
+      "date": "20/10/2026",
+      "location": "City Hall",
+      "organiser": "Alex",
+      "type": "Workshop",
+      "status": "Upcoming",
+      "amount": 25.0,
+      "description": "Hands-on design session",
+      "contactEmail": "alex@example.com",
+      "contactPhone": "+95 912345678",
+      "sessions": [
+        {
+          "id": 1,
+          "eventId": 1,
+          "name": "Introduction",
+          "time": "09:00",
+          "type": "Presentation",
+          "speaker": "Alex",
+          "room": "Room A",
+          "description": "Welcome and agenda"
+        }
+      ]
+    }
+  ]
+}
